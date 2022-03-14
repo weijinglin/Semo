@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    margin-top: auto;
+    margin-left: auto;
+    box-shadow: whitesmoke 1px 1px 1px 1px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.menu {
+    width: 15%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: auto;
+    background-color: #484040;
+    float: left;
+}
+
+.menu img {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.AppTitle {
+    width: 30%;
+    font-size: 20px;
+    color: #484040;
+    height: 100%;
+    //background-color: antiquewhite;
+    margin-left:18%;
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.usr {
+    width: 20%;
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: #484040;
+    display: inline-block;
+    float: right;
+}
+
+.usr .usr_img {
+    width: 100px;
+    height: 100%;
+    //background-color: antiquewhite;
+    float: left;
+}
+
+.usr .usr_img img {
+    width: 80px;
+    margin-left: 10px;
+}
+
+.usr .usr_name {
+    width: 207px;
+    height: 100%;
+    font-size: 22px;
+    color: white;
+    margin-left: 0px;
+    //background-color: deepskyblue;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+
