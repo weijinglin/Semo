@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    margin-top: auto;
+    margin-left: auto;
+    box-shadow: whitesmoke 1px 1px 1px 1px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.menu {
+    width: 15%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: auto;
+    background-color: #484040;
+    float: left;
+}
+
+.menu img {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.AppTitle {
+    width: 30%;
+    font-size: 20px;
+    color: #484040;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    margin-left:18%;
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.usr {
+    width: 20%;
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: #484040;
+    display: inline-block;
+    float: right;
+}
+
+.usr .usr_img {
+    width: 100px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+}
+
+.usr .usr_img img {
+    width: 80px;
+    margin-left: 10px;
+}
+
+.usr .usr_name {
+    width: 200px;
+    height: 100%;
+    font-size: 22px;
+    color: white;
+    margin-left: 0px;
+    /* background-color: deepskyblue; */
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+/* 总体信息 */
+.chatroom{
+    ?border:1px solid #484040;
+    height: 100%;
+    width: 100%;
+}
+
+/* 左边的用户列表的信息 */
+.chatman{
+    overflow: auto;
+    border:1px solid #484040;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+/* 对每个分区的介绍 */
+.region{
+    height: 15%;
+    width: auto;
+}
+
+/* 聊天栏 */
+.chatpage{
+    border:1px solid #1b0f0f;
+    height: 100%;
+    width: 69%;
+    float: right;
+}
+
+/* 在聊天栏的上方显示房间信息 */
+.title{
+    border:1px solid #484040;
+    width: 100%;
+    height: 12%;
+    background-color: #484040;
+}
+
+/* 聊天栏中的基本信息 */
+.intro{
+    height: 100%;
+    width: 10%;
+    margin-bottom: 20%;
+    /* background-color: aliceblue; */
+}
+
+/* 对聊天栏的渲染 */
+.listid{
+    height: auto;
+    width: auto;
+    margin-top: 25%;
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    float: left;
+    color: aliceblue;
+}
+.listidthing{
+    height: auto;
+    width: auto;
+    margin-top: 25%;
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    float: left;
+    color: aliceblue;
+}
+
+/* 聊天界面 */
+.chat{
+    height: 60%;
+    width: auto;
+    border:1px solid #484040;
+}
+
+
+/* 下面完成输入文本框的操作 */
+.input{
+    border:1px solid #484040;
+    height: 12%;
+    width: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.input .input-data{
+    width: 80%;
+    height: 100%;
+    /* border:1PX solid #c93d3d; */
+}
+.input .input-data input{
+    width: 100%;
+	height: 60%;
+	border: none;
+	border-bottom: 2px solid silver;
+	font-size: 17px;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+	transform: translateY(-20px);
+	font-size: 20px;
+	color: #1be0e7;
+}
+.input .input-data label{
+	/* position: absolute; */
+	bottom: 10px;
+	left: 0;
+	color: grey;
+	pointer-events: none;
+	transition: all 0.3s ease;
+}
+.input .input-data .underline{
+	position: absolute;
+	/* bottom: 0px; */
+	height: 2px;
+	width: 100%;
+}
+.input-data .underline:before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	background: #aef726;
+	transform: scaleX(0);
+	transition:transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+	transform: scaleX(1);
+}
+
+/* 下面进行已经发送的信息的展示 */
+.reading{
+    height: 20%;
+    width: 100%;
+    /* border:1px solid #484040; */
+    margin-top: 28%;
+}
+
+/* 对人物头像的渲染 */
+.header{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+/* 消息的内容框 */
+.word{
+    border-radius: 15px;
+    width: 80%;
+    height: 80px;
+    float: left;
+    border:1px solid #484040;
+}
+
+/* 输入框的特殊效果 */
+.func{
+    /* border:1px solid #484040; */
+    height: 60%;
+    width: 25%;
+    margin-left: 100%;
+}
+
+/* 处理表情包 */
+.smile{
+    /* border:1px solid #484040; */
+    height: 100%;
+    width: 23.5%;
+    float: left;
+}

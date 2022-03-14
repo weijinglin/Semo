@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Semo</title>
-    <link rel="stylesheet" type="text/css" href="../cssDir/mainPage.css">
+    <link rel="stylesheet" type="text/css" href="../cssDir/chatPage.css">
 </head>
 <body>
 <header>
@@ -22,36 +22,153 @@
         </div>
     </div>
 </header>
-<section>
-    <div class="upside">
-        <div class="notice">
-            <div class="notice_title">
-
+<div class="chatroom">
+    <div class="chatman">
+        <ul style="height: 100%; width: 100%;">
+            <li class="region" id="d1">
+                <i aria-label="icon:read" width="20%" height="100%">
+                    <img src="../img/img-chatroom/study.png" alt="study" width="23%" height="100%">
+                </i>
+                <table style="height: 100%; width: 70%; float:right;">
+                        <tr>
+                            <td>
+                                <span class="id">
+                                    id:
+                                </span>
+                                <span class="idthing">
+                                    xxx
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="id">
+                                    简介:
+                                </span>
+                                <span class="idthing">
+                                    xxx
+                                </span>
+                            </td>
+                        </tr>
+                </table>
+            </li>
+            <hr>
+            <li class="region" id="d2">
+                <i aria-label="icon:read" width="20%" height="100%">
+                    <img src="../img/img-chatroom/live.png" alt="study" width="23%" height="100%">
+                </i>
+                <table style="height: 100%; width: 70%; float:right;">
+                    <tr>
+                        <td>
+                            <span class="id">
+                                id:
+                            </span>
+                            <span class="idthing">
+                                xxx
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="id">
+                                简介:
+                            </span>
+                            <span class="idthing">
+                                xxx
+                            </span>
+                        </td>
+                    </tr>
+            </table>
+            </li>
+            <hr>
+            <li class="region" id="d3">
+                <i aria-label="icon:read" width="20%" height="100%">
+                    <img src="../img/img-chatroom/sport.png" alt="study" width="24%" height="100%">
+                </i>
+                <table style="height: 100%; width: 70%; float:right;">
+                    <tr>
+                        <td>
+                            <span class="id">
+                                id:
+                            </span>
+                            <span class="idthing">
+                                xxx
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="id">
+                                简介:
+                            </span>
+                            <span class="idthing">
+                                xxx
+                            </span>
+                        </td>
+                    </tr>
+            </table>
+            </li>
+            <hr>
+        </ul>
+    </div>
+    <div class="chatpage">
+        <div class="title">
+            <div class="logo" style="height: 100%; width: 10%; margin-left: 5%; float: left;"> 
+                <img src="../img/img-chatroom/study.png" alt="study" style="height: 100%; width: 85%;">
             </div>
-            <div class="notice_board">
-
+            <div class="intro" style="margin-left: 0%; float: left;">
+                <div class="listid">
+                    id:
+                </div>
+                <div class="listidthing">
+                    xxx
+                </div>
+            </div>
+            <div class="intro" style="margin-left: 0%; float: left;">
+                <div class="listid">
+                    简介:
+                </div>
+                <div class="listidthing">
+                    xxx
+                </div>
             </div>
         </div>
-        <div class="hot">
-            <div class="hot_title">
-
-            </div>
-            <div class="hot_board">
-                <div class="hot_img">
-
+        <div class="chat">
+            <div class="reading">
+                <div class="sender">
+                    <div class="header">
+                        <img src="../img/img-chatroom/bea.jpg" alt="user" style="height: 80%; width: 80%;">
+                    </div>
+                    <div class="word">
+                        <p style="height: 100%;">
+                            共克时艰，携手抗疫！
+                        </p>
+                    </div>
                 </div>
-                <div class="hot_info">
-
-                </div>
             </div>
-            <div class="hot_scroll">
-
+        </div>
+        <div class="input">
+            <div class="input-data">
+                <input type="text" required="" placeholder="express your emo!" style="float: left;"/>
+                <div class="func">
+                        <div class="smile">
+                            <img src="../img/img-chatroom/smile.svg" alt="smile" style="height: 100%; width: 100%;">
+                        </div>
+                        <div class="smile">
+                            <img src="../img/img-chatroom/at.svg" alt="@" style="height: 100%; width: 100%;">
+                        </div>
+                        <div class="smile">
+                            <img src="../img/img-chatroom/plus.svg" alt="+" style="height: 100%; width: 100%;">
+                        </div>
+                        <div class="smile">
+                            <img src="../img/img-chatroom/arrow.png" alt="->" style="height: 100%; width: 100%;">
+                        </div>
+                </div>
+                <div class="underline"></div>
+                <label>和谐社区，从这里开始！</label>
             </div>
         </div>
     </div>
-    <div class="downside">
-
-    </div>
-</section>
+</div>
 </body>
 </html>
